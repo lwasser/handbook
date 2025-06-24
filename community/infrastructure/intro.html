@@ -7,20 +7,20 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta property="og:title" content="pyOpenSci GitHub Permissions" />
+
+    <meta property="article:modified_time" content="2025-06-05T21:33:58+00:00" /><meta property="og:title" content="pyOpenSci Infrastructure" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://www.pyopensci.org/handbook/community/github/permissions.html" />
+<meta property="og:url" content="https://www.pyopensci.org/handbook/community/infrastructure/intro.html" />
 <meta property="og:site_name" content="pyOpenSci Python Package Guide" />
-<meta property="og:description" content="GitHub teams: pyOpenSci uses GitHub Teams to allocate permissions to contributors on GitHub. pyOpenSci currently has four active teams: the Editorial Board, the Packaging Council, pyOpenSci Repo Ma..." />
+<meta property="og:description" content="pyOpenSci uses GitHub to manage almost all of its infrastructure, from community processes to website rendering. This page provides an overview of our core repositories, how they work together, and..." />
 <meta property="og:image:width" content="1146" />
 <meta property="og:image:height" content="600" />
-<meta property="og:image" content="https://www.pyopensci.org/handbook/_images/social_previews/summary_community_github_permissions_fa870a44.png" />
-<meta property="og:image:alt" content="GitHub teams: pyOpenSci uses GitHub Teams to allocate permissions to contributors on GitHub. pyOpenSci currently has four active teams: the Editorial Board, the Packaging Council, pyOpenSci Repo Ma..." />
-<meta name="description" content="GitHub teams: pyOpenSci uses GitHub Teams to allocate permissions to contributors on GitHub. pyOpenSci currently has four active teams: the Editorial Board, the Packaging Council, pyOpenSci Repo Ma..." />
+<meta property="og:image" content="https://www.pyopensci.org/handbook/_images/social_previews/summary_community_infrastructure_intro_8a5338e1.png" />
+<meta property="og:image:alt" content="pyOpenSci uses GitHub to manage almost all of its infrastructure, from community processes to website rendering. This page provides an overview of our core repositories, how they work together, and..." />
+<meta name="description" content="pyOpenSci uses GitHub to manage almost all of its infrastructure, from community processes to website rendering. This page provides an overview of our core repositories, how they work together, and..." />
 <meta name="twitter:card" content="summary_large_image" />
     <link href="https://www.pyopensci.org/images/favicon.ico" rel="icon" type="image/x-icon">
-    <meta property="article:modified_time" content="2024-11-07T22:17:34+00:00" />
-    <title>pyOpenSci GitHub Permissions &#8212; pyOpenSci Handbook</title>
+    <title>pyOpenSci Infrastructure &#8212; pyOpenSci Handbook</title>
   
   
   
@@ -61,18 +61,26 @@
     <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
     <script src="../../_static/copybutton.js?v=f281be69"></script>
     <script src="../../_static/design-tabs.js?v=f930bc37"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'community/github/permissions';</script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/mermaid@11.2.0/dist/mermaid.esm.min.mjs"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@mermaid-js/layout-elk@0.1.4/dist/mermaid-layout-elk.esm.min.mjs"></script>
+    <script type="module">import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11.2.0/dist/mermaid.esm.min.mjs";import elkLayouts from "https://cdn.jsdelivr.net/npm/@mermaid-js/layout-elk@0.1.4/dist/mermaid-layout-elk.esm.min.mjs";mermaid.registerLayoutLoaders(elkLayouts);mermaid.initialize({startOnLoad:false});</script>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+    <script type="module">
+import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11.2.0/dist/mermaid.esm.min.mjs";
+window.addEventListener("load", () => mermaid.run());
+</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'community/infrastructure/intro';</script>
     <script src="../../_static/matomo.js?v=918da087"></script>
-    <link rel="canonical" href="https://www.pyopensci.org/handbook/community/github/permissions.html" />
+    <link rel="canonical" href="https://www.pyopensci.org/handbook/community/infrastructure/intro.html" />
     <link rel="icon" href="https://www.pyopensci.org/images/favicon.ico"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="pyOpenSci Infrastructure Overview" href="data-process.html" />
-    <link rel="prev" title="3. Continuous integration" href="continuous-integration.html" />
+    <link rel="next" title="pyOpenSci GitHub repositories" href="our-repositories.html" />
+    <link rel="prev" title="Zenodo" href="../zenodo.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   <meta name="docsearch:version" content="" />
-    <meta name="docbuild:last-update" content="Nov 07, 2024"/>
+    <meta name="docbuild:last-update" content="Jun 05, 2025"/>
   </head>
   
   
@@ -455,12 +463,12 @@
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">GitHub Processes</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="intro.html">GitHub</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">GitHub</a></li>
 <li class="toctree-l1"><a class="reference internal" href="our-repositories.html">Our Repos</a></li>
 <li class="toctree-l1"><a class="reference internal" href="issues.html">GitHub Issue Guidelines</a></li>
 <li class="toctree-l1"><a class="reference internal" href="pull-requests.html">Pull Requests</a></li>
 <li class="toctree-l1"><a class="reference internal" href="continuous-integration.html">Continuous Integration (CI)</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">GitHub permissions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="permissions.html">GitHub permissions</a></li>
 <li class="toctree-l1"><a class="reference internal" href="data-process.html">Data Workflows</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Translation &amp; Internationalization workflows</span></p>
@@ -510,7 +518,7 @@
     
     <li class="breadcrumb-item"><a href="../index.html" class="nav-link">Community Handbook</a></li>
     
-    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">pyOpenSci GitHub Permissions</span></li>
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">pyOpenSci Infrastructure</span></li>
   </ul>
 </nav>
 </div>
@@ -527,59 +535,78 @@
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="pyopensci-github-permissions">
-<h1>pyOpenSci GitHub Permissions<a class="headerlink" href="#pyopensci-github-permissions" title="Link to this heading">#</a></h1>
-<section id="github-teams">
-<h2>GitHub teams<a class="headerlink" href="#github-teams" title="Link to this heading">#</a></h2>
-<p>pyOpenSci uses <a class="reference external" href="https://docs.github.com/en/organizations/organizing-members-into-teams/about-teams">GitHub Teams</a> to allocate permissions to contributors on GitHub. pyOpenSci currently has <a class="reference external" href="https://github.com/orgs/pyOpenSci/teams">four active teams</a>:</p>
+  <section id="pyopensci-infrastructure">
+<span id="github-intro"></span><h1>pyOpenSci Infrastructure<a class="headerlink" href="#pyopensci-infrastructure" title="Link to this heading">#</a></h1>
+<p>pyOpenSci uses GitHub to manage almost all of its infrastructure, from community processes to website rendering.
+This page provides an overview of our core repositories, how they work together, and how they contribute to the website and community operations.</p>
+<p><a class="reference internal" href="our-repositories.html#github-repos-overview"><span class="std std-ref">Learn more about all of our repos here.</span></a></p>
+<pre  class="mermaid">
+        %%{ init: { &quot;theme&quot;: &quot;default&quot;, &quot;themeVariables&quot;: { &quot;fontSize&quot;: &quot;200%&quot; } } }%%
+
+flowchart TD
+
+    %% Note above Software Review
+    Note[&quot;Peer review happens&lt;br&gt;in GitHub issues&quot;]
+
+    %% Top: software-review repo
+    A(&lt;b&gt;Software Review&lt;/b&gt;&lt;br&gt;&lt;sub&gt;github.com/pyOpenSci/software-review&lt;/sub&gt;) --&gt; B{{pyosMeta&lt;br&gt;&lt;sub&gt;github.com/pyOpenSci/pyosMeta&lt;/sub&gt;&lt;br&gt;&lt;i&gt;A Python package that processes review&lt;br&gt;and contributor data and creates YML files&lt;/i&gt;}}
+    C(&lt;b&gt;pyOpenSci Website&lt;/b&gt;&lt;br&gt;&lt;sub&gt;pyopensci.github.io&lt;/sub&gt;)
+    A --&gt; |&quot;pyosMeta parses review issues&lt;br&gt;and contributor metadata&lt;br&gt;to create YAML files&quot;| B
+    B --&gt; |&quot;_data/contributors.yml &amp; packages.yml are used to populate website package and contributor pages.&quot;| C
+
+    %% Website outputs to 4 child &quot;books&quot;
+    C --&gt; D1(Handbook&lt;br&gt;&lt;sub&gt;github.com/pyOpenSci/handbook&lt;br&gt;SPHINX&lt;/sub&gt;)
+    C --&gt; D2(Python Package Guide&lt;br&gt;&lt;sub&gt;github.com/pyOpenSci/python-package-guide&lt;br&gt;SPHINX&lt;/sub&gt;)
+    C --&gt; D3(Software Peer Review Guide&lt;br&gt;&lt;sub&gt;github.com/pyOpenSci/software-peer-review-guidebook&lt;br&gt;SPHINX&lt;/sub&gt;)
+    C --&gt; D4(Lessons&lt;br&gt;&lt;sub&gt;github.com/pyOpenSci/software-peer-review-guidebook&lt;br&gt;SPHINX&lt;/sub&gt;)
+    C --&gt; D5(Peer Review Metrics&lt;br&gt;&lt;sub&gt;github.com/pyOpenSci/peer-review-metrics&lt;br&gt;QUARTO&lt;/sub&gt;)
+
+    %% Style for Website box (light purple)
+    style C fill:#f3e8ff,stroke:#7e22ce,stroke-width:1px
+    style B fill:#fef9c3,stroke:#ca8a04,stroke-width:1px
+    style Note fill:#f3f4f6,stroke:#9ca3af,stroke-width:1px
+
+    </pre><section id="pyopensci-data-flow-and-continuous-integration">
+<h2>pyOpenSci data flow and continuous integration<a class="headerlink" href="#pyopensci-data-flow-and-continuous-integration" title="Link to this heading">#</a></h2>
+<p>pyOpenSci uses a set of <strong>Continuous Integration (CI)</strong> jobs (GitHub Actions) to:</p>
 <ul class="simple">
-<li><p><a class="reference external" href="https://github.com/orgs/pyOpenSci/teams/editorial-board">the Editorial Board</a></p></li>
-<li><p><a class="reference external" href="https://github.com/orgs/pyOpenSci/teams/packaging-council">the Packaging Council</a></p></li>
-<li><p><a class="reference external" href="https://github.com/orgs/pyOpenSci/teams/pyos-repo-maintainers">pyOpenSci Repo Maintainers</a></p></li>
-<li><p><a class="reference external" href="https://github.com/orgs/pyOpenSci/teams/translation-council">the Translation Council</a></p></li>
+<li><p>Collect data from our open peer review process</p></li>
+<li><p>Collect contributor data from across all of our GitHub repositories</p></li>
+</ul>
+<p>The <a class="reference external" href="https://github.com/pyOpenSci/pyosMeta"><code class="docutils literal notranslate"><span class="pre">pyosMeta</span></code></a> package is a Python package that <strong>parses review and contributor data</strong> and transforms it into <strong>machine-readable YAML files</strong> used by our website.</p>
+<section id="summary-of-flow">
+<h3>Summary of flow<a class="headerlink" href="#summary-of-flow" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">pyosMeta</span></code> parses the <strong>Markdown data</strong> within review issues in the <a class="reference external" href="https://github.com/pyOpenSci/software-review"><code class="docutils literal notranslate"><span class="pre">software-review</span></code></a> GitHub repository. It:</p>
+<ul>
+<li><p>Gathers review editors, reviewers, and maintainers’ GitHub usernames, and uses the GitHub API to retrieve contributor names, emails, and other public GitHub profile information</p></li>
+<li><p>Extracts the GitHub URL of each reviewed package and retrieves basic repository statistics (number of forks, stars, contributors)</p></li>
+<li><p>Stores this peer review information in <code class="docutils literal notranslate"><span class="pre">packages.yml</span></code></p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">pyosMeta</span></code> also parses <strong>contributor data</strong> from across all pyOpenSci repositories. It:</p>
+<ul>
+<li><p>Parses <code class="docutils literal notranslate"><span class="pre">all-contributors</span></code> bot files to compile a list of contributors and their associated repositories/projects</p></li>
+<li><p>Parses peer review metadata to populate roles such as reviewers, editors, and other contributor roles within our organization</p></li>
+<li><p>Stores this contributor information in <code class="docutils literal notranslate"><span class="pre">contributors.yml</span></code></p></li>
+</ul>
+</li>
+<li><p>The <code class="docutils literal notranslate"><span class="pre">packages.yml</span></code> and <code class="docutils literal notranslate"><span class="pre">contributors.yml</span></code> files generated by <code class="docutils literal notranslate"><span class="pre">pyosMeta</span></code> are updated <strong>daily</strong> via a GitHub Action <strong>cron job</strong> in the <a class="reference external" href="https://github.com/pyOpenSci/pyopensci.github.io/tree/main/_data"><code class="docutils literal notranslate"><span class="pre">pyopensci.github.io</span></code></a> repository. This data is used to populate:</p>
+<ul>
+<li><p>The <strong>Our Community</strong> page</p></li>
+<li><p>The <strong>Packages</strong> page</p></li>
+</ul>
+</li>
 </ul>
 </section>
-<section id="team-repository-access">
-<h2>Team repository access<a class="headerlink" href="#team-repository-access" title="Link to this heading">#</a></h2>
-<p>Each of the teams has access to the following pyOpenSci repositories:</p>
-<section id="editorial-board">
-<h3>Editorial Board<a class="headerlink" href="#editorial-board" title="Link to this heading">#</a></h3>
-<p>These are individuals who serve on the pyOpenSci <a class="reference external" href="https://www.pyopensci.org/our-community/#pyopensci-community-contributors">Editorial Board</a>.</p>
+<section id="sphinx-books-and-publishing">
+<h3>Sphinx books and publishing<a class="headerlink" href="#sphinx-books-and-publishing" title="Link to this heading">#</a></h3>
 <ul class="simple">
-<li><p><a class="reference external" href="https://github.com/pyOpenSci/software-peer-review">software-peer-review repository</a></p></li>
-<li><p><a class="reference external" href="https://github.com/pyOpenSci/software-submission">software-submission</a></p></li>
-<li><p><a class="reference external" href="https://github.com/pyOpenSci/pyopensci.github.io">pyopensci.github.io repository</a></p></li>
+<li><p>The <strong>Python Package Guide</strong>, <strong>Peer Review Guide</strong>, and <strong>Handbook</strong> are all <strong>Sphinx books</strong> that use the <code class="docutils literal notranslate"><span class="pre">pydata_sphinx_theme</span></code>. These books are built separately but are served under the <code class="docutils literal notranslate"><span class="pre">pyopensci.org</span></code> domain.</p></li>
+<li><p>All Sphinx books use the <a class="reference external" href="https://github.com/pyOpenSci/pyos-sphinx-theme%60"><code class="docutils literal notranslate"><span class="pre">pyos-sphinx-theme</span></code></a>, which is a Sphinx theme built on top of <code class="docutils literal notranslate"><span class="pre">pydata_sphinx_theme</span></code>.</p></li>
+<li><p>The final site is published at <a class="reference external" href="https://www.pyopensci.org">pyopensci.org</a> using <strong>GitHub Pages</strong>.</p></li>
 </ul>
 </section>
-<section id="packaging-council">
-<h3>Packaging Council<a class="headerlink" href="#packaging-council" title="Link to this heading">#</a></h3>
-<p>These are members who are actively working on our packaging projects and translation in the organization.</p>
-<ul class="simple">
-<li><p><a class="reference external" href="https://www.pyopensci.org/python-package-guide/">python-package-guide repository</a></p></li>
-<li><p><a class="reference external" href="https://github.com/pyOpenSci/pyosPackage">pyosPackage repository</a></p></li>
-<li><p><a class="reference external" href="https://github.com/pyOpenSci/pyos-package-template">pyos-package-template</a></p></li>
-</ul>
-</section>
-<section id="pyopensci-repo-maintainers">
-<h3>pyOpenSci Repo Maintainers<a class="headerlink" href="#pyopensci-repo-maintainers" title="Link to this heading">#</a></h3>
-<p>This is a team with folks who have access to manage issues and such across our repositories.</p>
-<ul class="simple">
-<li><p><a class="reference external" href="https://github.com/pyOpenSci/software-peer-review">software-peer-review repository</a></p></li>
-<li><p><a class="reference external" href="https://www.pyopensci.org/python-package-guide/">python-package-guide repository</a></p></li>
-<li><p><a class="reference external" href="https://github.com/pyOpenSci/pyosMeta">pyosMeta repository</a></p></li>
-<li><p><a class="reference external" href="https://github.com/pyOpenSci/pyopensci.github.io">pyopensci.github.io repository</a></p></li>
-<li><p><a class="reference external" href="https://github.com/pyOpenSci/pyos-sphinx-theme">pyos-sphinx-theme</a></p></li>
-</ul>
-</section>
-<section id="translation-council">
-<h3>Translation Council<a class="headerlink" href="#translation-council" title="Link to this heading">#</a></h3>
-<p>These are people working on translations across our repos. There are currently no repos assigned to the translations team.</p>
-</section>
-</section>
-<section id="how-permissions-are-granted">
-<h2>How permissions are granted<a class="headerlink" href="#how-permissions-are-granted" title="Link to this heading">#</a></h2>
-<p>We liberally grant access to our GitHub repos to pyOpenSci community members. When we see a contributor actively engaging, we add them to the appropriate teams.</p>
-<p>To learn more about how pyOpenSci uses GitHub, please refer to our <a class="reference external" href="https://www.pyopensci.org/handbook/community/github/intro.html">GitHub processes page</a>, in particular the <a class="reference external" href="https://www.pyopensci.org/handbook/community/github/issues.html">GitHub Issue Guidelines</a> and <a class="reference external" href="https://www.pyopensci.org/handbook/community/github/pull-requests.html">Pull Requests</a> sections.</p>
 </section>
 </section>
 
@@ -592,7 +619,7 @@
                   <div class="footer-article-items footer-article__inner">
   
     <div class="footer-article-item"><hr>
-<p style="font-size: small; color: #888;">Last updated: Nov 07, 2024</p></div>
+<p style="font-size: small; color: #888;">Last updated: Jun 05, 2025</p></div>
   
 </div>
                 </footer>
@@ -603,20 +630,20 @@
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="continuous-integration.html"
+       href="../zenodo.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">3. Continuous integration</p>
+        <p class="prev-next-title">Zenodo</p>
       </div>
     </a>
     <a class="right-next"
-       href="data-process.html"
+       href="our-repositories.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">pyOpenSci Infrastructure Overview</p>
+        <p class="prev-next-title">pyOpenSci GitHub repositories</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -639,15 +666,11 @@
   </div>
   <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#github-teams">GitHub teams</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#team-repository-access">Team repository access</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#editorial-board">Editorial Board</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#packaging-council">Packaging Council</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pyopensci-repo-maintainers">pyOpenSci Repo Maintainers</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#translation-council">Translation Council</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pyopensci-data-flow-and-continuous-integration">pyOpenSci data flow and continuous integration</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#summary-of-flow">Summary of flow</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sphinx-books-and-publishing">Sphinx books and publishing</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-permissions-are-granted">How permissions are granted</a></li>
 </ul>
   </nav></div>
 
@@ -655,7 +678,7 @@
 
   
   <div class="tocsection editthispage">
-    <a href="https://github.com/pyopensci/handbook/edit/main/community/github/permissions.md">
+    <a href="https://github.com/pyopensci/handbook/edit/main/community/infrastructure/intro.md">
       <i class="fa-solid fa-pencil"></i>
       
       
@@ -670,7 +693,7 @@
   <div class="sidebar-secondary-item">
 
   <div class="tocsection sourcelink">
-    <a href="../../_sources/community/github/permissions.md.txt">
+    <a href="../../_sources/community/infrastructure/intro.md.txt">
       <i class="fa-solid fa-file-lines"></i> Show Source
     </a>
   </div>
